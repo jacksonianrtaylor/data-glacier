@@ -1,0 +1,20 @@
+file_type: csv
+
+dataset_name: price_paid_records
+file_name: price_paid_records
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - transaction_unique_identifier
+    - price
+    - date_of_transfer
+    - property_type
+    - old_new
+    - duration
+    - town_city
+    - district
+    - county
+    - ppdcategory_type
+    - record_status_monthly_file_only
+    
